@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { toast } from 'react-toastify';
 
 export const Searchbar = ( {searchValue} ) => {
+    
     const [formValue, setFormValue] = useState('');
 
     const handleFindImages = evt => {
